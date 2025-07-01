@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Booking Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Book Your Experience</h1>
+  </header>
+
+  <form action="payment.html" method="get">
+    <label for="experience">Choose an experience:</label>
+    <select name="experience" id="experience">
+      <option value="storytelling">Storytelling</option>
+      <option value="safari">Safari</option>
+      <option value="cooking">Cooking Class</option>
+    </select><br/><br/>
+
+    <label for="date">Select date:</label>
+    <input type="date" name="date" required /><br/><br/>
+
+    <label for="guests">Number of guests:</label>
+    <input type="number" name="guests" min="1" max="10" required /><br/><br/>
+
+    <button type="submit">Continue to Payment</button>
+  </form>
+</body>
+</html>
