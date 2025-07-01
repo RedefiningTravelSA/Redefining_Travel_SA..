@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Payment Options</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Secure Payment</h1>
+  </header>
+
+  <form action="thank-you.html" method="get">
+    <label>Select Payment Method:</label><br/>
+    <input type="radio" name="payment" value="eft" required /> EFT<br/>
+    <input type="radio" name="payment" value="debit" /> Debit/Credit Card<br/>
+    <input type="radio" name="payment" value="paypal" /> PayPal<br/><br/>
+
+    <button type="submit">Pay & Confirm</button>
+  </form>
+</body>
+</html>
